@@ -1,21 +1,23 @@
-# Python
+# Python virtual environment
 venv/
+
+# Python cache
 __pycache__/
+*/__pycache__/
+
+# Python compiled files
 *.pyc
+*.pyo
 
-# Environment variables
-.env
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# Node
-node_modules/
-dist/
-
-# IDE
+# VS Code settings
 .vscode/
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# Old synthetic-data backup
+old_synthetic_backup/
